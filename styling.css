@@ -1,0 +1,166 @@
+#container {
+  width: 1050px;
+  /* border: 1px solid grey; */
+  margin: 0 auto;
+}
+
+h1 a {
+  font-size: 50px;
+  font-weight: 100;
+  color: #861bbf;
+  text-decoration: none;
+}
+
+#header {
+  height: 100px;
+  padding: 10px 0;
+}
+
+#brand {
+  float: left;
+}
+
+#searchbox {
+  float: right;
+  background: linear-gradient(#e4f2b9, #b7e953);
+  width: 400px;
+  height: 50px;
+  padding: 20px 20px 0 20px;
+  margin-top: 20px;
+}
+
+.text {
+  float: left;
+  width: 200px;
+  padding: 5px;
+  font-size: 15px;
+  color: #e36a0c;
+  background: white url(/images/5613.jpg) right center no-repeat;
+}
+
+.submit {
+  float: right;
+  padding: 5px;
+  font-weight: bold;
+  color: white;
+  background: #a751d6;
+  font-size: 15px;
+  border-color: white;
+}
+
+.clear {
+  clear: both;
+}
+
+#menu {
+  height: 70px;
+  background: linear-gradient(#f8f594, #d5d533);
+  padding: 15px 0 0 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#menu ul li {
+  float: left;
+  padding: 0 30px;
+  height: 20px;
+  border-right: 1px solid #5d12e7;
+}
+
+#menu ul li:last-child {
+  border-right: none;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #5d12e7;
+  line-height: 20px;
+  transition: font-size 0.3s ease;
+}
+
+#menu ul li a:hover {
+  font-size: 20px;
+  font-weight: bold;
+  color: #b314db;
+}
+
+#introduction {
+  background: linear-gradient(#e5f2bb, #b7e952);
+  padding: 30px;
+  margin: 15px 0;
+}
+
+#introduction h3 {
+  font-size: 45px;
+  color: #316901;
+  font-weight: normal;
+}
+
+#introduction p {
+  font-size: 25px;
+  color: #628519;
+  text-align: left;
+}
+
+.sidebar {
+  height: 500px;
+  width: 450px;
+  border: 2px solid #baf46f;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+
+.sidebar h3 {
+  color: #b314db;
+  font-size: 20px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #5d12e7;
+  transition: font-size 0.3s ease;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a.active {
+  text-decoration: none;
+  color: #b314db;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  padding-top: 8px;
+}
+
+#left-sidebar ul li {
+  padding-bottom: 10px;
+  padding-left: 10px;
+  list-style-image: url(/images/kcMbeodni_20x20.png);
+}
+
+#right-sidebar ul li {
+  padding-bottom: 25px;
+  padding-left: 25px;
+  list-style-image: url(/images/kcMbeodni_20x20.png);
+}
+
+#left-sidebar {
+  float: left;
+}
+
+#right-sidebar {
+  float: right;
+}
+
+#footer {
+  height: 50px;
+  background: linear-gradient(#f8f594, #d5d533);
+  padding: 10px;
+  margin-top: 15px;
+}
